@@ -13,7 +13,7 @@ List the folders and files your app generates.
 Explain how your story or backstory led to this utility.
 
 ## Team Members
-List all team members, or write "Individual project."
+Cecilia Madariaga "Individual project."
 
 ## Screenshots
 List or include screenshots showing the app, generated folders, README file, Git repo, and Discord post.
