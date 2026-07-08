@@ -1,1 +1,136 @@
 https://1drv.ms/w/c/6BDFEB5E47BB87D9/IQDa0wEei0_0SJ7YOONBEpivAQKC30IY8qCa46LflulJOlU?e=eCWK7U
+# Week 6 App Development Document
+
+## Project / Team
+Cecilia Madariaga (Individual) 
+Project name: Midnight Mix
+
+Student name(s):
+Cecilia Madariaga
+Team strategy:
+Individual Project
+
+## 0. Genre
+
+Genre: Music
+
+Explain why this genre fits your app idea: 
+The app is inspired by The Midnight Gospel. Instead of exploring random planets, users travel through surreal music worlds that represent different emotions, genres, and vibes. Each world helps users discover new songs and organize playlists based on how they feel. 
+## 1. Backstory
+People often know what mood they’re in but don’t know what music to listen to. Instead of scrolling through endless playlists, this app lets users explore different “music worlds”, As they explore, they can discover songs and build playlists in a more fun and creative way. 
+
+What happened before the app exists?
+
+Who lives or works in this world?
+
+
+## 2. Story / User Need
+
+Who is the user?
+Anyone who enjoys discovering music and creating playlists based on moods or emotions.
+
+What does the user need?
+The user wants an easier and more creative way to organize music without endlessly scrolling through thousands of songs.
+
+What problem are they trying to solve?
+Finding music that matches their current mood and planning playlists for different situations.
+
+Why does this matter to them?
+Music affects emotions, productivity, relaxation. Studying, workouts, and memories. The right playlist improves every experience. 
+
+## 3. Product Definition
+
+What are you building inside the story?
+A playlist planner where users travel through different music worlds instead of browsing ordinary menus. 
+
+What will the app help the user do?
+•	Explore music moods
+•	Discover songs
+•	Build playlists
+•	Organize playlists by emotion or activity
+•	Save favorite music worlds
+
+What is the smallest useful version of this app?
+•	 Choose a mood world
+•	View recommended songs
+•	Add songs to a playlist
+•	Save the playlist
+## 4. Variables
+Variable Name	Data Type	What It Stores	Example Value
+Currentworld	String	Current music world	Dreamscape
+SelectedMood	String	Users chosen mood	chill
+Playlistname	String	Name of playlist	Late night drive
+PlaylistSongs	List	Songs in playlist	
+Songcount	Integer	Number of songs	18
+Isfavorite	Boolean	Playlist favorite status	True
+CurrentGenre	String	Genre being explored	
+
+List containers of information your app may need.
+
+## 5. Functions and Procedures
+Function/Procedure	Purpose	Input	Output or Result
+EnterMusicWorld()	Load a music dimension	Mood	Displays themed world
+RecommendSongs()	Finds songs matching mood	Mood/Genre	Song list
+AddSongToPlaylist()	Adds selected song	Song	Playlist updated
+SavePlaylist()	Saves playlist	Playlist	Playlist stored
+SearchSongs()	Search music library	Song name	Matching songs
+RandomWorld()	Visits a random music world	None	New mood world
+
+List actions the app needs to perform.
+
+| Function / Procedure | Purpose | Input | Output or Result |
+| --- | --- | --- | --- |
+| CreateProjectFolders | Creates the folder structure | project path | Folders are created |
+| BuildReadMeText | Creates README content | project name | README text |
+| ValidateProjectName | Checks that the name is usable | project name | True or False |
+
+## 6. Questions and Answers
+
+Identify possible problems before coding.
+
+Question:
+How will songs be stored ?
+Answer or plan:
+Use a list or JSON file containing song names, artists, moods, and genres
+Question:
+Can users edit playlists later?
+Answer or plan:
+Yes, Users can add or remove songs after saving.
+Question:
+How will users choose a world?
+Answer or plan:
+Users can select from mood icons or use a “Random Dimension” button ispired by the The Midnight Gospel.
+## 7. Execution Strategy
+
+What will you build first?
+•	Playlist screen 
+•	Mood/world selection
+•	Song list
+How will you test it?
+•	Verify playlist save correctly
+•	Test adding/removing songs
+•	Test mood filtering 
+•	Test random world generation 
+What screenshots will prove it works?
+•	Home screen 
+•	Mood world selection 
+•	Song recommendations
+•	Playlist creation
+•	Saved playlist
+What will you refactor or clean up if you have time?
+•	Improve animations between music worlds
+•	Add colorful psychedelic backgrounds
+•	Improve playlist sorting 
+•	Add album artwork and transition
+## 8. Git Repository
+
+Repository link: https://github.com/cclmadariaga-ops/Week6-Folder-Maker-App.git 
+
+What files should the instructor grade?
+•	README.md
+•	VB.NET
+•	App Dev Doc
+•	Screenshots
+•	Discord Proof
+What files should the instructor ignore?
+
