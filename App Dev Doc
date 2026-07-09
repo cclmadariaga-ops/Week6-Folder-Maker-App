@@ -76,13 +76,6 @@ SavePlaylist()	Saves playlist	Playlist	Playlist stored
 SearchSongs()	Search music library	Song name	Matching songs
 RandomWorld()	Visits a random music world	None	New mood world
 
-List actions the app needs to perform.
-
-| Function / Procedure | Purpose | Input | Output or Result |
-| --- | --- | --- | --- |
-| CreateProjectFolders | Creates the folder structure | project path | Folders are created |
-| BuildReadMeText | Creates README content | project name | README text |
-| ValidateProjectName | Checks that the name is usable | project name | True or False |
 
 ## 6. Questions and Answers
 
@@ -133,4 +126,5 @@ What files should the instructor grade?
 •	Screenshots
 •	Discord Proof
 What files should the instructor ignore?
-
+VB.NET
+APP.Config
